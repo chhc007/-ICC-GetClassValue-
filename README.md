@@ -1,10 +1,7 @@
-以下是为这个工具编写的 README 文件：
+# Multi-Threaded dahua-ICC Vulnerability Checker
 
----
-
-# Multi-Threaded Link Vulnerability Checker
-
-这个工具用于从 CSV 文件中读取链接，并发送 POST 请求检查是否存在特定的漏洞（`uid=0(root)`）。通过多线程并发处理请求，提高了处理大量链接时的效率。工具使用 `pandas` 读取 CSV 文件，`requests` 库发送 HTTP 请求，并使用 `ThreadPoolExecutor` 实现多线程。
+这个工具用于从 CSV 文件中读取链接，并发送 POST 请求检查是否存在GetClassValue.jsp的漏洞，使用id命令判断返回值是否存在（`uid=0(root)`）。通过多线程并发处理请求，提高了处理大量链接时的效率。工具使用 `pandas` 读取 CSV 文件，`requests` 库发送 HTTP 请求，并使用 `ThreadPoolExecutor` 实现多线程。可以直接处理fofa导出的CSV文件。 结果会导出到CSV。
+脚本用于快速检测公网ICC是否还存在漏洞，需要尽快修复！！！
 
 ## 功能
 
