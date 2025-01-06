@@ -61,8 +61,8 @@ python icc-check.py
 
 ```csv
 link,city,result
-https://61.174.210.74:4443,CityA,Contains uid=0(root)
-https://113.214.15.134:4443,CityB,No uid=0(root)
+https://61.174.210.74:4443,CityA,Find vulnerability
+https://113.214.15.134:4443,CityB,Not vulnerability
 ```
 
 ## 代码结构
